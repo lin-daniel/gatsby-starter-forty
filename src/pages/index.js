@@ -32,42 +32,42 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${drums})`}}>
                             <header className="major">
-                                <h3>Learn Rhythms of the Arabian Sea</h3>
+                                <h3>Music</h3>
                                 <p>Join Boom.Diwan for a special workshop and learn the rhythms of Khaleeji pearl-diving music with musician and Ethnomusicologist Dr. Ghazi Al Mulaifi.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Vaporwaves</h3>
+                                <h3>Dance</h3>
                                 <p>Students at Zayed University’s College of Arts and Creative Enterprises share a common impulse to critically remix the everyday and the nostalgic.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Where do the underrepresented go?</h3>
+                                <h3>Written Verse</h3>
                                 <p>Grassroots art collecting and research platform 101 takes over Warehouse 44 to present its second curated sale "Playing Spaces."</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Inside Out, Outside In</h3>
+                                <h3>3D Art</h3>
                                 <p>How can an exterior environment embody the qualities of interiors, and conversely, an interior integrate exterior characteristics?</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>How will we return?</h3>
+                                <h3>Photography</h3>
                                 <p>A roundtable discussion on how to formulate a considered response and blueprint to the question, "how will we return?" </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Nostalgic Pasts, Dystopian Present, Imagined Futures</h3>
+                                <h3>Video</h3>
                                 <p>A conversation with Yemeni-Bosnian-US multi-media artist Alia Ali, curator Miranda McKee, and Mohamed Somji, Director and curator at Gulf Photo Plus.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
@@ -76,7 +76,7 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Contribute your art</h2>
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
                             <ul className="actions">
