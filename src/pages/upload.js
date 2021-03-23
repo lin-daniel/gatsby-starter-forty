@@ -56,8 +56,12 @@ const Generic = props => (
       <section id="contact">
         <div className="inner">
           <section>
-            <form name="dogPictures" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="the-name-of-the-html-form" />
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <p>
                 <label>
                   Dog’s Name: <input type="text" name="name" />
