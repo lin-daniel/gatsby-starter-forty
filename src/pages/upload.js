@@ -60,6 +60,8 @@ const Generic = props => (
               name="contact"
               method="POST"
               data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              data-netlify-recaptcha="true"
             >
               <input type="hidden" name="form-name" value="contact" />
               <p>
@@ -72,6 +74,7 @@ const Generic = props => (
                   Dog’s Picture: <input type="file" name="picture" />
                 </label>
               </p>
+              <div data-netlify-recaptcha="true"></div>
               <p>
                 <button type="submit">Send</button>
               </p>
