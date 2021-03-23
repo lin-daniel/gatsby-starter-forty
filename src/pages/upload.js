@@ -26,7 +26,7 @@ const Generic = (props) => (
             <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form method="post" action="#" data-netlify="true">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -40,9 +40,11 @@ const Generic = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
+                        <li><label>Your artwork: <input type="file" name="picture" /></label></li>
+                        {/* <li><input type="upload" value="Upload File" className="special" /></li>
+                        <li><input type="reset" value="Clear" /></li> */}
                     </ul>
+                    <button type="submit">Send</button>
                 </form>
             </section>
             <section className="split">
