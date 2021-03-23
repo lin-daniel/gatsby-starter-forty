@@ -65,12 +65,22 @@ const Generic = props => (
               <input type="hidden" name="form-name" value="contact" />
               <p>
                 <label>
-                  Dog’s Name: <input type="text" name="name" />
+                  Full Name: <input type="text" name="name" />
+                </label>
+              </p>
+              <p>
+              <label>
+                  Email: <input type="text" name="email" />
+                </label>
+              </p>
+              <p>
+              <label>
+                  Artwork Title: <input type="text" name="artwork" />
                 </label>
               </p>
               <p>
                 <label>
-                  Dog’s Picture: <input type="file" name="picture" />
+                  Upload: <input type="file" name="upload" />
                 </label>
               </p>
               <p>
