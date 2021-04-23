@@ -39,21 +39,21 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Dance</h3>
+                                <h3>Performance</h3>
                                 <p>Students at Zayed University’s College of Arts and Creative Enterprises share a common impulse to critically remix the everyday and the nostalgic.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Written Verse</h3>
+                                <h3>Words</h3>
                                 <p>Grassroots art collecting and research platform 101 takes over Warehouse 44 to present its second curated sale "Playing Spaces."</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>3D Art</h3>
+                                <h3>Art</h3>
                                 <p>How can an exterior environment embody the qualities of interiors, and conversely, an interior integrate exterior characteristics?</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
@@ -67,7 +67,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Video</h3>
+                                <h3>Film</h3>
                                 <p>A conversation with Yemeni-Bosnian-US multi-media artist Alia Ali, curator Miranda McKee, and Mohamed Somji, Director and curator at Gulf Photo Plus.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
