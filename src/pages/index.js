@@ -72,7 +72,7 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                     </section>
-                    <section id="two">
+                    {/* <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Contribute your art today</h2>
@@ -82,7 +82,7 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/upload" className="button next">Get Started</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
             </Layout>
