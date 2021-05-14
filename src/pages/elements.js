@@ -22,14 +22,21 @@ const Elements = (props) => (
                         <h1>About</h1>
                     </header>
 
-                    <h2 id="content">Sample Content</h2>
-                    <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                    <h2 id="content">The Art of Water Project</h2>
+                    <p>Knowing water. It is a commonly known fact that our planet Earth is comprised of 70% water and that the water that makes up the human body is uncannily the same percentage. It is also well known that water is defined by its composition of two hydrogen atoms and one oxygen atom (H2O) configured into three potential phases, namely liquid, solid, or gas. What is less commonly known is that there is a fourth phase of water with a molecular structure of three hydrogen atoms and two oxygen atoms (H3O2). This phase of water opens up an area of study centered on the social behavior of water.</p>
+
+                    <p>Water is social and it socializes us.  We collaborate with water. It allows us to take notice of the changing landscape on shores, the sound of rain on pavement, the hovering hummingbird, the seafaring leaf, reflections shimmering in puddles broken by the intermittent steps of rushing feet, icicles strung like lights on the edge of a roof, trees floating in a layer of fog, the curve of the kayaker’s back and the twist of the swimmer’s torso. We connect with water in a myriad of ways.</p>
+
+                    <p>The Art of Water extends the principles guiding community science into the realm of humanities by creating a collaborative space to artistically display how we know water--all water--fresh, brackish, and salt.</p>
+
+                    <p>Our collaborations with water are here thus exhibited. </p>
+
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <h3>Sem turpis amet semper</h3>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                            <h3>Biography</h3>
+                            <p>Barbara Krystal is a Marine Biologist, Author, and PhD candidate at the University of Washington, Seattle. Tap Dancing connects her to sedentary barnacles who feed by kicking their feet out of their shells to capture whatever food particles water brings.</p>
                         </div>
-                        <div className="col-6">
+                        {/* <div className="col-6">
                             <h3>Magna odio tempus commodo</h3>
                             <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
                         </div>
@@ -44,10 +51,10 @@ const Elements = (props) => (
                         <div className="col-4">
                             <h3>Accumsan montes viverra</h3>
                             <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                        </div>
+                        </div> */}
                     </div>
 
-                    <hr className="major" />
+                    {/* <hr className="major" />
 
                     <h2 id="elements">Elements</h2>
                     <div className="grid-wrapper">
@@ -409,7 +416,7 @@ const Elements = (props) => (
                                 </code></pre>
 
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </section>
